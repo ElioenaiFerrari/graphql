@@ -4,7 +4,7 @@ import "github.com/graphql-go/graphql"
 
 var TradeSchema = graphql.NewObject(
 	graphql.ObjectConfig{
-		Name: "Trades",
+		Name: "Trade",
 		Fields: graphql.Fields{
 			"amount": &graphql.Field{
 				Type: graphql.Float,
